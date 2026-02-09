@@ -3,10 +3,10 @@ title = 'About'
 date = '2026-02-06T17:39:51-05:00'
 +++
 
-{{ < project-section >}}
-![Headshot of Jason Burg](/static/images/profile.jpg)
+{{< project-section reverse>}}
+![Headshot of Jason Burg](/images/profile.jpg)
 Jason Burg grew up in the Finger Lakes Region of New York. Each summer was spent on Keuka Lake sailing, boating, and water skiing. This exposure to the nautical world set a strong passion for yachts and their construction. From a young age, Jason drew up plans for new boat designs.
-{{ </ project-section >}}
+{{</ project-section >}}
 
 Following high school, Jason attended SUNY Maritime College to study Naval Architecture and further his knowledge of yacht design. Here he studied ship design, hydrodynamics, marine engineering, resistance and propulsion, and yacht design. Senior year he designed 'Carpe Noctem' a 73' blue water cutter, and 'MV Eileen' a 30' picnic boat with full amenities. These preliminary designs recieved high praise from his professor, Dave Gerr. Shortly after graduating, Jason sat for his Fundamentals of Engineering exam and passed, earning the title 'Engineer in Training'.
 
