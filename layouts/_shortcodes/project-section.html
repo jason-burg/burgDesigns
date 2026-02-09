@@ -1,0 +1,5 @@
+{{- $reverse := .Get 0 -}}
+
+<section class="project-section{{ if eq $reverse "reverse" }} reverse{{ end }}">
+        {{ .Inner | markdownify }}
+</section>

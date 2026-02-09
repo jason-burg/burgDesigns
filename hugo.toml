@@ -1,0 +1,34 @@
+
+# The basics
+baseURL = "https://burgdesigns.com/"
+languageCode = "en-us"
+title = "Burg Designs"
+
+enableRobotsTXT = true
+canonifyURLs = true
+
+# Output formats
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  page = ["HTML"]
+
+# Markdown settings
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Clean URLs
+[permalinks]
+  projects = "/projects/:slug/"
+
+# Taxonomies
+[taxonomies]
+  vessel = "vessels"
+  status = "status"
+
+# Params for use in templates
+[params]
+  description = "Naval architecture and yacht design by Burg Designs"
+  author = "Jason Burg"
