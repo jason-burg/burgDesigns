@@ -1,5 +1,23 @@
-{{- $reverse := .Get 0 -}}
+{{- $img := .Get "img" | default "" -}}
+{{- $reverse := or (.Get "reverse") false -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "cap" | default "" -}}
 
-<section class="project-section{{ if eq $reverse "reverse" }} reverse{{ end }}">
-        {{ .Inner | markdownify }}
+<section class="project-section{{ if $reverse }} reverse{{ end }}">
+  <div class="project-section-text">
+    {{ .Inner | markdownify }}
+  </div>
+
+  {{ with $img }}
+    {{ with $.Page.Resources.GetMatch . }}
+      <div class="project-section-image">
+        <figure>
+          <img src="{{ .RelPermalink }}" alt="{{ $alt }}">
+          {{ with $caption }}
+            <figcaption>{{ . }}</figcaption>
+          {{ end }}
+        </figure>
+      </div>
+    {{ end }}
+  {{ end }}
 </section>

@@ -3,7 +3,7 @@
    ========================= */
 
 :root {
-  --max-width: 72ch;
+  --max-width: 84ch;
   --line-height: 1.6;
 
   --color-text: #111;
@@ -19,7 +19,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body {
@@ -159,38 +159,45 @@ article li {
    ========================= */
 
 .project-content > * {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .project-section {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: "text image";
   gap: 2rem;
-  justify-items: start;
+  align-items: start;
+  max-width: var(--max-width);
+}
+
+.project-section.reverse {
+  grid-template-areas: "image text";
+}
+
+.project-section-text {
+  grid-area: text;
+}
+
+.project-section-image {
+  grid-area: image;
 }
 
 .project-section img {
   display: block;
-  width: 90%;
+  width: 100%;
   height: auto;
   border: 1px solid var(--color-border);
   background: var(--color-bg);
-  margin: 0;
 }
 
-/* Alternate layout */
-.project-section.reverse {
-  grid-auto-flow: dense;
-  grid-template-columns: 2fr 1fr;
-  justify-items: end;
-}
+/* =========================
+   Image Blocks
+   ========================= */
 
-.project-section.reverse > :first-child {
-  order: 2;
-}
-
-.project-section.reverse > :last-child {
-  order: 1;
+.project-image{
+  max-width: var(--max-width);
+  margin: 1rem 0;
 }
 
 .project-image img{

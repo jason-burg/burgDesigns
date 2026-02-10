@@ -8,8 +8,7 @@ date = 2026-02-01
     featured = true
 +++
 
-{{< project-section reverse>}}
-![Table](table.png)
+{{< project-section img="table.png" alt="Carpe Noctem Table" reverse="false" cap="Key Design parameters" >}}
     The Carpe Noctem is the first sailboat design in my collection. At 73' LOA and an 18' beam, this blue water cruiser is ready for adventure. Designed to carry a crew of four, this easy to sail marconi rig cutter is capable of crossing oceans, navigating shallow waterways, or voyaging from port to port around a continent.
 {{< /project-section >}}
 
