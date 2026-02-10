@@ -7,18 +7,16 @@ date = '{{ .Date }}'
     status = ""
     featured = true
 +++
-{{< project-section reverse>}}
-![Image 1](image1.png)
+
+{{< project-section img="image1.png" alt="Image1" rev="true" cap="Image1" >}}
     This is where you type the opening paragraph
 {{< /project-section >}}
 
-{{< project-section >}}
-![Image 2](image2.png)
+{{< project-section img="image2.png" alt="Image2" rev="true" cap="Image2" >}}
     This is where the second paragrah goes!
 {{< /project-section >}}
 
-{{< project-section reverse >}}
-![Profile drawing](test2.png)
+{{< project-section img="image3.png" alt="Image3" rev="true" cap="Image3" >}}
     This is for the third paragraph
 {{< /project-section >}}
 
