@@ -167,6 +167,7 @@ article li {
   grid-template-areas: "text image";
   gap: 1rem;
   align-items: start;
+  place-items: center;
   max-width: var(--max-width);
 }
 
