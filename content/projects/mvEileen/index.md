@@ -11,7 +11,7 @@ date = 2026-02-01
 {{< project-section img="error2.png" alt="MV Eileen principle characteristics" rev="false" cap="MV Eileen principle characteristics" >}}
 During my final semester at SUNY Maritime I took [ENG 347] powerboat design. In the previous semister I designed the Carpe Noctem, a sailboat that exceeded the length limits of the class. For my powerboat, I decided I'd design a vessel as short as possible to meet all the design criteria. That led me to the picnic boat with twin I/O's the MV Eileen.
 
-At first glance, this motorboat may not seem out of the ordinary, and in many ways it isn't. It's designed for a crew of two, with a V-berth/settee for sleeping and ample stowage for wares below. In the house you'll find the helm, galley, head, and chart table. Aft of the cabin is a comfy seat for guests and family to enjoy the breeze as the MV Eileen rips across the water. 
+At first glance, this motorboat may not seem out of the ordinary, and in many ways it isn't. It's designed for a crew of two, with a V-berth/settee for sleeping and ample stowage for wares below. In the house you'll find the helm, galley, head, and chart table. Aft of the cabin is a comfy seat for guests and family to enjoy the breeze as the MV Eileen rips across the water.
 {{< /project-section >}}
 
 {{< project-section img="error2.png" alt="MV Eileen lines plan" rev="true" cap="MV Eileen lines plan" >}}
