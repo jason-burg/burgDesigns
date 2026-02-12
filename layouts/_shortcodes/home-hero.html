@@ -1,0 +1,15 @@
+<section class="home-hero">
+    <header class="home-hero-header">
+        <h1>{{ .Get "title" }}</h1>
+        <h4>{{ .Get "subtitle" }}</h4>
+    </header>
+    <div class="home-hero-area">
+        <div class="home-hero-content">
+            <p>{{ .Get "description" }}</p>
+        </div>
+
+        <div class="home-hero-image">
+            <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}">
+        </div>
+    </div>
+</section>
