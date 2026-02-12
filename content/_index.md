@@ -6,10 +6,16 @@ title = 'Burg Designs'
 
 {{< services-grid title="Services" subtitle="Naval Architecture & Marine Design" >}}
 
-{{< service-item title="Design" description="Blank slate design work" icon="design.png" >}}
+{{< service-item title="Design" icon="images/hero.png" >}}
+Blank slate design work
+{{< /service-item >}}
 
-{{< service-item title="Consulting" description="Helping out with specific issues" icon="consult.png" >}}
+{{< service-item title="Consulting" icon="images/hero.png" >}}
+Helping out with specific issues
+{{< /service-item>}}
 
-{{< service-item title="Retrofit" description="Breathing life into former glory" icon="retrofit.png" >}}
+{{< service-item title="Retrofit" icon="images/hero.png" >}}
+Breathing life into former glory
+{{< /service-item >}}
 
 {{< /services-grid >}}
