@@ -73,7 +73,7 @@ header a:hover {
 footer {
   display: flex;
   font-size: 0.875rem;
-  color: var(--color-muted);
+  color: var(--color-text);
   justify-content: center;
 }
 
@@ -199,7 +199,7 @@ article li {
 }
 
 .project-section-caption {
-  color: var(--color-muted);
+  color: var(--color-text);
   font-size: 12px;
 }
 
@@ -310,7 +310,7 @@ article li {
 }
 
 .service-item img {
-  width: 50px;
-  height: 50px;
+  width: 40%;
+  height: auto;
   margin-top: 1rem;
 }
