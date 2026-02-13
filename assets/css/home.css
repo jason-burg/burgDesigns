@@ -1,0 +1,80 @@
+/* =========================
+   Homepage Blocks
+   ========================= */
+
+/* Hero */
+
+.home-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  background-color: var(--color-muted);
+}
+
+.home-hero-header {
+  width: 100%;
+  background-color: var(--color-gray);
+}
+
+.home-hero-area {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "content image";
+  gap: 1rem;
+}
+
+.home-hero-content {
+  grid-area: content;
+  margin: 1rem;
+}
+
+.home-hero-image {
+  grid-area: image;
+  margin: 1rem;
+}
+
+.home-hero-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 2px solid var(--color-border);
+  background: var(--color-bg);
+}
+
+/* Services Grid */
+
+.services-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+  gap: 1rem;
+  background-color: var(--color-muted);
+}
+
+.services-grid-header {
+  width: 100%;
+  background-color: var(--color-gray);
+}
+
+.services-grid-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.service-item {
+  border: 2px solid var(--color-border);
+  padding: 1rem;
+  background-color: var(--color-accent);
+}
+
+.service-item img {
+  width: 40%;
+  height: auto;
+  margin-top: 1rem;
+}

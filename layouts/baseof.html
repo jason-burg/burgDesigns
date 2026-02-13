@@ -13,7 +13,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ site.Params.description }}">
 
-  {{ $css := resources.Get "css/main.css" | minify }}
+  {{ $css := slice
+      (resources.Get "css/variables.css")
+      (resources.Get "css/layout.css")
+      (resources.Get "css/typography.css")
+      (resources.Get "css/content.css")
+      (resources.Get "css/project.css")
+      (resources.Get "css/home.css")
+    | resources.Concat "css/main.css" | minify }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
 </head>
