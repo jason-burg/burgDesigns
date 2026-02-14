@@ -31,3 +31,14 @@ article li {
   gap: 0.5rem;
   font-size: 0.95rem;
 }
+
+.WIP {
+  background-color: var(--color-accent);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.WIP a {
+  color: var(--color-border)
+}
