@@ -20,6 +20,7 @@
       (resources.Get "css/content.css")
       (resources.Get "css/project.css")
       (resources.Get "css/home.css")
+      (resources.Get "css/single.css")
     | resources.Concat "css/main.css" | minify }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
@@ -27,18 +28,26 @@
 <body>
 
   <header>
-    <nav>
+    <div class="WIP">
+    <p>This site is a work in progress. Check back soon for progress, or follow along on <a href="https://github.com/jason-burg/burgDesigns">GitHub</a>!</p>
+    </div>
+    <div class="site-header">
+    <div class="logo-section">
+      <div class="logo-icon">
+        <img src="{{ "images/logo.jpg" | relURL }}" alt="Burg Designs Logo">
+      </div>
+      <div class="logo-text">
+        <h1 href="{{ "/" | relURL }}" class="logo">{{ site.Title }}</h1>
+      </div>
+    </div>
+    <div class="nav">
       <a href="{{ "/" | relURL }}">Home</a>
       <a href="{{ "/projects/" | relURL }}">Projects</a>
       <a href="{{ "/about/" | relURL }}">About</a>
       <a href="{{ "/contact/" | relURL }}">Contact</a>
-    </nav>
-    <hr>
+    </div>
+    </div>
   </header>
-
-  <div class="WIP">
-    <p>This site is a work in progress. Check back soon for progress, or follow along on <a href="https://github.com/jason-burg/burgDesigns">GitHub</a>!</p>
-  </div>
 
   <main>
     {{ block "main" . }}{{ end }}

@@ -11,7 +11,7 @@ figure {
 }
 
 .content {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 /* =========================
@@ -36,9 +36,14 @@ article li {
   background-color: var(--color-accent);
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0;
+  text-align: center;
 }
 
 .WIP a {
   color: var(--color-border)
+}
+
+.WIP p {
+  margin: 0rem;
 }

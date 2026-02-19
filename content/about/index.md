@@ -1,5 +1,5 @@
 +++
-title = 'About'
+title = 'A Little About Me...'
 date = '2026-02-06T17:39:51-05:00'
 +++
 

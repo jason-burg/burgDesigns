@@ -1,0 +1,13 @@
+/* =========================
+   Single Page Styles
+   ========================= */
+
+.single-title {
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+.single-content {
+    margin: 0 auto;
+}

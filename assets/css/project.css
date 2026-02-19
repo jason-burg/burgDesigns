@@ -33,12 +33,12 @@
 
 .project-section-text {
   grid-area: text;
-  margin: 1rem 0;
+  margin: 0;
 }
 
 .project-section-image {
   grid-area: image;
-  margin: 1rem 0;
+  margin: 0;
 }
 
 .project-section-image img {
