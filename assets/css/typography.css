@@ -23,6 +23,7 @@ h2 {
 p {
   max-width: var(--max-width);
   padding: 0;
+  margin: 0 0 1rem 0;
 }
 
 ul {

@@ -5,7 +5,7 @@
     </header>
     <div class="home-hero-area">
         <div class="home-hero-content">
-            <p>{{ .Get "description" }}</p>
+            <p>{{ .Inner | markdownify}}</p>
         </div>
 
         <div class="home-hero-image">

@@ -5,16 +5,5 @@
       {{ .Content }}
     </div>
 
-  <h2>Selected Projects</h2>
-
-  <ul>
-    {{ range where site.RegularPages "Type" "projects" }}
-      {{ if .Params.featured }}
-        <li>
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </li>
-      {{ end }}
-    {{ end }}
-  </ul>
 </article>
 {{ end }}
