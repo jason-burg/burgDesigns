@@ -10,27 +10,27 @@ Detail is not an afterthought but an operating standard. From structural integra
 
 {{< services-grid title="Services Available" subtitle="Naval Architecture & Marine Design" >}}
 
-{{< service-item title="Refit & Modification" icon="images/hero.png" >}}
+{{< service-item title="Refit & Modification" icon="images/refit.png" >}}
 Structural modifications, stability reassessments, weight studies, and arrangement updates for vessels undergoing refit or mission changes.
 {{< /service-item >}}
 
-{{< service-item title="Stability & Weight Engineering" icon="images/hero.png" >}}
+{{< service-item title="Stability & Weight Engineering" icon="images/stability.png" >}}
 Inclining experiment support, lightship updates, damage stability analysis, loading condition development, and weight control programs for refits.
 {{< /service-item>}}
 
-{{< service-item title="Structural Design & Reinforcement" icon="images/hero.png" >}}
+{{< service-item title="Structural Design & Reinforcement" icon="images/structural.png" >}}
 Local and global structural analysis for deck reinforcements, helidecks, tender garages, mast modifications, ice strengthening, or mission equipment foundations.
 {{< /service-item >}}
 
-{{< service-item title="Machinery & Systems Integration Support" icon="images/hero.png" >}}
+{{< service-item title="Machinery & Systems Integration Support" icon="images/machinery.png" >}}
 Preliminary engineering for propulsion upgrades, hybrid conversions, generator replacements, fuel system modifications, and extended-range upgrades.
 {{< /service-item >}}
 
-{{< service-item title="Yard Technical Representation" icon="images/hero.png" >}}
+{{< service-item title="Yard Technical Representation" icon="images/yard.png" >}}
 Drawing review, scope development, contractor coordination, change management, and verification of work against engineering intent and class requirements.
 {{< /service-item >}}
 
-{{< service-item title="Expedition Readiness Upgrades" icon="images/hero.png" >}}
+{{< service-item title="Expedition Readiness Upgrades" icon="images/expedition.png" >}}
 Range extension studies, redundancy planning, tankage optimization, storage reconfiguration, watertight integrity reviews, and mission-specific capability upgrades.
 {{< /service-item >}}
 
