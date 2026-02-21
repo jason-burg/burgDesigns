@@ -2,10 +2,19 @@
    Single Page Styles
    ========================= */
 
+.single-header {
+    background-color: var(--color-bg);
+}
+
 .single-title {
     text-align: center;
     padding-top: 1rem;
     margin-bottom: 0rem;
+}
+
+.single-subtitle {
+    text-align: center;
+    padding: 1rem 0;
 }
 
 .single-content {

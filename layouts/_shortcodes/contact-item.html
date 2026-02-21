@@ -1,0 +1,11 @@
+<a href="{{ (.Get "url") | safeURL }}" class="contact-item-link">
+<div class="contact-item">
+    <div class="contact-item-img">
+        <img src="{{ .Get "icon" }}" alt="{{ .Get "alt" }}">
+    </div>
+    <div class="contact-item-text">
+        <h3>{{ .Get "title" }}</h3>
+        <p>{{ .Inner | markdownify }}</p>
+    </div>
+</div>
+</a>
