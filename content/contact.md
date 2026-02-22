@@ -26,7 +26,7 @@ url="https://www.linkedin.com/in/jason-burg/" >}}
 title="GitHub"
 icon="/images/github.png"
 url="https://github.com/jason-burg" >}}
-*My professional GitHub account, where this website lives and maybe dome other projects will appear!*
+*My professional GitHub account, where this website lives and maybe some other projects will appear!*
 {{< /contact-item>}}
 
 {{< contact-item
