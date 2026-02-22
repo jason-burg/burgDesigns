@@ -2,9 +2,11 @@
 title = "MV Eileen"
 date = 2026-02-01
 [params]
+    icon = "icon.png"
     vessel = "Motor"
     length = '30 ft'
     status = 'Preliminary Design'
+    description = "At first glance, this motorboat may not seem out of the ordinary, and in many ways it isn't. It's designed for a crew of two, with a V-berth/settee for sleeping and ample stowage for wares below."
     featured = true
 +++
 

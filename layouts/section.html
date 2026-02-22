@@ -1,16 +1,37 @@
 {{ define "main" }}
-  <article>
-    <h1>{{ .Title }}</h1>
-    <div class="content">
-      {{ .Content }}
-    </div>
+<article>
+  <div class="section-header">
+    <h1 class="section-title">{{ .Title }}</h1>
+    <p class="section-subtitle">{{ .Params.subtitle }}</p>
+  </div>
 
-    <ul>
-        {{ range .Pages }}
-            <li>
-                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            </li>
-        {{ end }}
-    </ul>
-  </article>
+  <div class="section-content">
+      {{ .Content }}
+  </div>
+
+  <ul class="section-list">
+    {{ range .Pages }}
+      <li>
+        <a href="{{ .RelPermalink }}" class="section-list-link">
+          <div class="section-list-item">
+            <div class="sli-img">
+              {{ with .Resources.GetMatch  .Params.icon }}
+                <img src="{{ .RelPermalink }}" alt="{{ .Title }}" width="100" />
+              {{ end}}
+            </div>
+            <div class="sli-text">
+              <h3 class="sli-title">{{ .Title }}</h3>
+              <p class="sli-description">{{ .Params.description }}</p>
+              <div class="sli-tags">
+                <p>Status: {{ .Params.status }}</p>
+                <p>Vessel Type: {{ .Params.vessel }}</p>
+                <p>LOA: {{ .Params.length }}</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</article>
 {{ end }}

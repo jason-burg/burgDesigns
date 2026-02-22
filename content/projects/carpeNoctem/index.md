@@ -2,9 +2,11 @@
 title = "Carpe Noctem"
 date = 2026-02-01
 [params]
+    icon = "icon.png"
     vessel = "Sail"
     length = '73 ft'
     status = 'Preliminary Design'
+    description = "The Carpe Noctem is the first sailboat design in my collection. At 73' LOA and an 18' beam, this blue water cruiser is ready for adventure."
     featured = true
 +++
 
